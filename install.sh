@@ -2,7 +2,7 @@
  
 # This runs on the server
  
-chef_binary=/var/lib/gems/1.9.1/bin/chef-solo
+chef_binary=/var/lib/gems/1.9.2/bin/chef-solo
  
 # Are we on a vanilla system?
 if ! test -f "$chef_binary"; then
