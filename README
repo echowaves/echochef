@@ -4,4 +4,4 @@
 sudo apt-get install git-core
 
 git clone git://github.com/echowaves/echochef.git
-./echochef/install.sh
+sudo ./echochef/install.sh
