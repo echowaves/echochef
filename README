@@ -1,5 +1,7 @@
 # initial minimal bootstrap on the server
-sudo apt-get install ssh git-core
+# the next line migh not be needed if running on ec2
+# sudo apt-get install ssh 
+sudo apt-get install git-core
 
 git clone git://github.com/echowaves/echochef.git
 ./echochef/install.sh
